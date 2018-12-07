@@ -1,5 +1,5 @@
 package patterns;
 
-public class AmenitiesDecorator {
-
+public abstract class AmenitiesDecorator extends MotelRoom{
+    public abstract String getDescription();
 }
