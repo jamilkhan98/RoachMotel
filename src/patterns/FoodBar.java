@@ -8,7 +8,7 @@ public class FoodBar extends AmenitiesDecorator{
     }
     
     public String getDescription() {
-        return mr.getDescription() + ", FoodBar";
+        return mr.getDescription() + ", Food Bar";
     }
     
     public double getCost() {

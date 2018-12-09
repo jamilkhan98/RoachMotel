@@ -8,7 +8,7 @@ public class RefillBar extends AmenitiesDecorator{
     }
     
     public String getDescription() {
-        return mr.getDescription() + ", RefillBar";
+        return mr.getDescription() + ", Refill Bar";
     }
     
     public double getCost() {
