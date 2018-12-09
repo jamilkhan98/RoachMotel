@@ -119,7 +119,9 @@ public class RoachMotel implements Subject{
     }
     
     public String toString() {
-        return "Motel Name: " + name + " || Initial Capacity: " + capacity + " || Current Capacity: " + getCapacity();
+        String s = "Motel Name: " + name + " || Initial Capacity: " + capacity +  " || Current Capacity: " + getCapacity();
+        s += " || Available Rooms: " + vacantRooms.toString();
+        return s;
     }
 }
 

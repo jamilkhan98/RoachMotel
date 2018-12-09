@@ -42,6 +42,8 @@ public abstract class MotelRoom {
     public abstract double getCost();
         
     public String toString() {
-        return "Motel Room " + getroomNumber() + ": " + getDescription();
+    	String s = "Motel Room " + getroomNumber() + " || " + getDescription();
+    	s += " || Roach Colony: " + rc.getName();
+    	return s;
     }   
 }
