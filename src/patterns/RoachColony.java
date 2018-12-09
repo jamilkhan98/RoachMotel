@@ -27,11 +27,15 @@ public class RoachColony implements Observer {
     }
 
     public void party(ArrayList<String> amenities) {
-        System.out.println(getName() + " is throwing a party.");
+        System.out.print(getName() + " is throwing a party. ");
         currentPop = initPop + (initPop * growthRate);
-        if (amenities.contains("shower")) {
+        if (amenities.contains("Shower")) {
+        	System.out.println("Good thing " + getName() + " has a shower!");
             currentPop *= 0.75;
-        } else {
+        } 
+        else 
+        {
+        	System.out.println("Too bad " + getName() + " did not have a shower!");
             currentPop *= 0.5;
         }
     }
