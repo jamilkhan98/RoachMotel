@@ -8,6 +8,7 @@ package patterns;
 * Output: returns the final cost of the room
 *
 */
+
 public class DeluxeRoom extends MotelRoom {
 
 	private static final double COST = 75;
