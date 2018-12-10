@@ -2,7 +2,7 @@ package patterns;
 /**
 *
 * @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
-* Purpose: Impelements factory pattern
+* Purpose: amenity added to Motel Room amenities
 * Input: n/a
 * Output: Description and cost
 *
