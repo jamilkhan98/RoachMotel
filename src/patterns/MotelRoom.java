@@ -1,5 +1,15 @@
 package patterns;
 
+/**
+*
+* @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
+* Purpose: abstract class to allow different Motel Room objects to be created
+* Input: room number of MotelRoom, Roach Colony which will inhabit Motel Room, and amenities included in Motel Room
+* Output: Motel room number, amenities included in room, and which Roach Colony is currently living in Motel Room
+*
+*/
+
+
 import java.util.*;
 
 public abstract class MotelRoom {
