@@ -1,5 +1,17 @@
 package patterns;
 
+/**
+*
+* @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
+* Purpose: RoachColony object that implements Observer interface. RoachColony has a name, a population (initPop), 
+*          a current population (initPop), and a growth rate (growthRate). The RoachColony has a unique method where
+*          the roaches will party() and the population will increase while decreasing if they do not have a shower only by
+*          0.50 but if they do it will decrease by 0.75
+* Input: RoachColony(), party(), update()
+* Output: getName(), getInitPop(), toString()
+*
+*/
+
 import java.util.*;
 
 public class RoachColony implements Observer {

@@ -2,9 +2,9 @@ package patterns;
 /**
 *
 * @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
-* Purpose: 
+* Purpose: Returns the cost of refilling the bar
 * Input: n/a
-* Output: returns description and cost
+* Output: returns description() and getcost()
 *
 */
 
