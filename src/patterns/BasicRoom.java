@@ -3,7 +3,7 @@ package patterns;
 /**
 *
 *@author Brandon Nhem, Jamil Khan, Anthony Pham, Brandon Walker
-*Purpose: to hold Roach Colonies
+*Purpose: To have a Basic Motel Room to hold Roach Colonies
 *Input: none required
 *Outputs: description of room, and cost of room
 */
