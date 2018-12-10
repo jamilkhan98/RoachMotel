@@ -1,4 +1,12 @@
 package patterns;
+/**
+*
+* @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
+* Purpose: 
+* Input: n/a
+* Output: returns description and cost
+*
+*/
 
 public class RefillBar extends AmenitiesDecorator{
     MotelRoom mr;
