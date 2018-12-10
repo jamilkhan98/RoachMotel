@@ -1,5 +1,16 @@
 package patterns;
 
+/**
+*
+* @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
+* Purpose: Class that holds Motel Room objects and implements observer patterns to allow for roach colonies
+*          to check in and check out as well as get notified if there are vacant motel rooms available  
+* Input: Takes in a name for the RoachMotel object, a room type and arraylist of amenities upon instantiation 
+         of specific MotelRoom, observer object name 
+* Output: Prints out RoachMotel name, initial and current capacity of rooms, as well as the list of available rooms 
+*
+*/
+
 import java.util.*;
 
 /**
