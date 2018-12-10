@@ -2,7 +2,7 @@ package patterns;
 /**
 *
 * @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
-* Purpose: 
+* Purpose: Impelements factory pattern
 * Input: n/a
 * Output: Description and cost
 *
