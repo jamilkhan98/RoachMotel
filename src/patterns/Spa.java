@@ -1,4 +1,12 @@
 package patterns;
+/**
+*
+* @author Jamil Khan, Brandon Nhem, Anthony Pham, Brandon Walker
+* Purpose: 
+* Input: n/a
+* Output: Description and cost
+*
+*/
 
 public class Spa extends AmenitiesDecorator{
     MotelRoom mr;
